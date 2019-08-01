@@ -3,7 +3,7 @@ from pytest_bdd import scenario, parsers, given, when, then
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-@scenario('../steps/web.feature', 'Basic DuckDuckGo search')
+@scenario('web.feature', 'Basic DuckDuckGo search')
 def test_arguments():
     pass
 
