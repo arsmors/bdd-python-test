@@ -11,4 +11,4 @@ Feature: Sample feature
  Scenario: Arguments for given, when, thens negative
     Given there are 10 cucumbers
     When I eat 5 cucumbers
-    Then I should have 4 cucumber
+    Then I should have 5 cucumber

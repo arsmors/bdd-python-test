@@ -9,7 +9,7 @@ def test_arguments():
 
 @pytest.fixture
 def browser():
-    b = webdriver.Chrome('./chromedriver.exe')
+    b = webdriver.Chrome('./chromedriver')
     #b.implicity_wait(10)
     yield b
     b.quit()
